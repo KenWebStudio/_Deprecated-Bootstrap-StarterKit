@@ -35,6 +35,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 
 **Base**
 - *1-base/base.sass* : This is where we add global styling. Common global styles include declaring font-family:
+
   ```
     body
       font-family: $primary-font

@@ -1,6 +1,6 @@
 # Kentoy-StarterKit
 A lightweight starter kit for web designers like me.
------------------------------------------------------
+
 **What's included:**
 
 1. Bourbon *(sass/0-libraries/bourbon)*: **v4.2.6**
@@ -27,7 +27,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 - *0-libraries/_mixins.sass* : If you need to add mixins, put it here. There is a predefined *breakpoint* mixin should you need to utilize media query styling.
 - *0-libraries/_vars.sass* : To avoid inconsistencies with colors, fonts, etc., declare client's specs here. Predefined variables include *$white* and *$black*:
 
-  ```
+  ```sass
   $white: #fff
   $black: #000
 
@@ -39,7 +39,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 
 - *1-base/base.sass* : this is where we add global styling. Common global styles include declaring font-family:
 
-  ```
+  ```sass
   base
     font-family: $primary-font
   ```

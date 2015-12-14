@@ -67,6 +67,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
   about-us-sidebar.sass
   about-us-main.sass
   ```
+
   There is no *_sections-index.sass* file. Instead, import the files in its relative page. That is;
   ```
     index-sidebar.sass --> 2-pages/index.sass

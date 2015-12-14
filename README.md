@@ -1,6 +1,6 @@
 # Kentoy-StarterKit
 A lightweight starter kit for web designers like me.
-
+-----------------------------------------------------
 **What's included:**
 
 1. Bourbon *(sass/0-libraries/bourbon)*: **v4.2.6**

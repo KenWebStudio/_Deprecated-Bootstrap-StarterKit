@@ -38,8 +38,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 
 - *1-base/base.sass* : this is where we add global styling. Common global styles include declaring font-family:
   ```
-  base
-  font-family: $primary-font
+  Why is this inline?
   ```
 
 **Page-specific Styling**
@@ -70,12 +69,12 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 
   There is no *_sections-index.sass* file. Instead, import the files in its relative page. That is;
   ```
-    index-sidebar.sass --> 2-pages/index.sass
-    index-main.sass --> 2-pages/index.sass
+  index-sidebar.sass --> 2-pages/index.sass
+  index-main.sass --> 2-pages/index.sass
 
-    index.sass will contain:
-        @import "../3-sections/index-sidebar"
-        @import "../3-sections/index-main"
+  index.sass will contain:
+      @import "../3-sections/index-sidebar"
+      @import "../3-sections/index-main"
   ```
 
 **Compiling Everything**

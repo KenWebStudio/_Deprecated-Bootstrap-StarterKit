@@ -72,6 +72,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
   ```
     index-sidebar.sass --> 2-pages/index.sass
     index-main.sass --> 2-pages/index.sass
+
     index.sass will contain:
         @import "../3-sections/index-sidebar"
         @import "../3-sections/index-main"

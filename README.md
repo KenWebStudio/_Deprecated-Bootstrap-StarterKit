@@ -95,3 +95,5 @@ Make sure to take advantage of the @extend feature of SASS. For more info, check
 
 Either delete or comment links and script source that are under 'development'.
 Then, uncomment the links and scripts under 'production'.
+
+Exclude the _sass files whenever a project will be uploaded onto a live server.

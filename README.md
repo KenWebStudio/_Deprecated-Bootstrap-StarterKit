@@ -1,4 +1,4 @@
-# Kentoy-StarterKit
+# Bootstrap-StarterKit
 A lightweight starter kit for web designers like me.
 
 **What's included:**

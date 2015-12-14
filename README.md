@@ -46,28 +46,26 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 
 - *2-pages/* : The importance why the SASS folder is structured this way is to keep everything modular. If the need to style specific pages arise, add a sass file with filenames matching the page name:
   ```
-    index.sass -- styles for the homepage
-    about-us.sass -- styles for the about-us page
-    contact.sass -- styles for the contact page
+  index.sass -- styles for the homepage
+  about-us.sass -- styles for the about-us page
+  contact.sass -- styles for the contact page
   ```
 
 - *2-pages/_pages.sass* : If there is no need to style specific pages, leave this blank. Otherwise, import the sass files here. always import sass files in order according to which file were created first:
   ```
-    @import "index"
-    @import "about-us"
-    @import "contact"
+  @import "index"
+  @import "about-us"
+  @import "contact"
   ```
 
 **Section-specific Styling**
 
 - *3-sections/* : This is where to put styles for specific sections in specific pages. If it tends to be global, add it to base.sass. The filename should be:
   ```
-    index-sidebar.sass
-    index-main.sass
-    about-us-sidebar.sass
-    about-us-main.sass
-    ...
-    and so on..
+  index-sidebar.sass
+  index-main.sass
+  about-us-sidebar.sass
+  about-us-main.sass
   ```
   There is no *_sections-index.sass* file. Instead, import the files in its relative page. That is;
   ```

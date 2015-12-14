@@ -56,7 +56,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 
 - *2-pages/_pages.sass* : If there is no need to style specific pages, leave this blank. Otherwise, import the sass files here. always import sass files in order according to which file were created first:
 
-  ```
+  ```sass
   @import "index"
   @import "about-us"
   @import "contact"
@@ -74,13 +74,16 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
   ```
 
   There is no *_sections-index.sass* file. Instead, import the files in its relative page. That is;
+  
   ```
   index-sidebar.sass --> 2-pages/index.sass
   index-main.sass --> 2-pages/index.sass
+  ```
 
   index.sass will contain:
-      @import "../3-sections/index-sidebar"
-      @import "../3-sections/index-main"
+  ```sass
+  @import "../3-sections/index-sidebar"
+  @import "../3-sections/index-main"
   ```
 
 **Compiling Everything**

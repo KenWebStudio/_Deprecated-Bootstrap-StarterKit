@@ -27,19 +27,19 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 - *0-libraries/_mixins.sass* : If you need to add mixins, put it here. There is a predefined *breakpoint* mixin should you need to utilize media query styling.
 - *0-libraries/_vars.sass* : To avoid inconsistencies with colors, fonts, etc., declare client's specs here. Predefined variables include *$white* and *$black*:
   ```
-    $white: #fff
-    $black: #000
+  $white: #fff
+  $black: #000
 
   // CLIENT FONTS
-    $primary-font: sans-serif
+  $primary-font: sans-serif
   ```
 
 **Base**
 
 - *1-base/base.sass* : this is where we add global styling. Common global styles include declaring font-family:
   ```
-    body
-      font-family: $primary-font
+  body
+    font-family: $primary-font
   ```
 
 **Page-specific Styling**

@@ -22,6 +22,7 @@ To streamline design coding, make sure to utilize bourbon's preset mixins. Refer
 We utilize SASS to keep design codes modular and neat. It is important to understand the SASS structure included in this biolerplate.
 
 **Libraries**
+
 - *0-libraries/bourbon/* : this is where we keep bourbon, mixins and variables.
 - *0-libraries/_mixins.sass* : If you need to add mixins, put it here. There is a predefined *breakpoint* mixin should you need to utilize media query styling.
 - *0-libraries/_vars.sass* : To avoid inconsistencies with colors, fonts, etc., declare client's specs here. Predefined variables include *$white* and *$black*:
@@ -34,6 +35,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
   ```
 
 **Base**
+
 - *1-base/base.sass* : this is where we add global styling. Common global styles include declaring font-family:
   ```
     body
@@ -41,12 +43,14 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
   ```
 
 **Page-specific Styling**
+
 - *2-pages/* : The importance why the SASS folder is structured this way is to keep everything modular. If the need to style specific pages arise, add a sass file with filenames matching the page name:
   ```
     index.sass -- styles for the homepage
     about-us.sass -- styles for the about-us page
     contact.sass -- styles for the contact page
   ```
+
 - *2-pages/_pages.sass* : If there is no need to style specific pages, leave this blank. Otherwise, import the sass files here. always import sass files in order according to which file were created first:
   ```
     @import "index"
@@ -55,6 +59,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
   ```
 
 **Section-specific Styling**
+
 - *3-sections/* : This is where to put styles for specific sections in specific pages. If it tends to be global, add it to base.sass. The filename should be:
   ```
     index-sidebar.sass
@@ -74,9 +79,11 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
   ```
 
 **Compiling Everything**
+
 If done correctly, main.sass will compile everything to css/user-styles.css.
 Make sure to take advantage of the @extend feature of SASS. For more info, check [SASS Documentation](http://sass-lang.com/guide)
 
 **Guidelines - From Development to Production:**
+
 Either delete or comment links and script source that are under 'development'.
 Then, uncomment the links and scripts under 'production'.

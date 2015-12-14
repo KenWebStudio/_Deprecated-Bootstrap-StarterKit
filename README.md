@@ -1,6 +1,6 @@
 # Kentoy-StarterKit
 A lightweight starter kit for web designers like me.
--
+
 **What's included:**
 
 1. Bourbon *(sass/0-libraries/bourbon)*: **v4.2.6**
@@ -8,7 +8,7 @@ A lightweight starter kit for web designers like me.
 3. jQuery *(js/jquery.min.js)*: **v1.11.3**
 4. Animate.css *(plugins/animate-css)*: **v3.4.0**
 5. FontAwesome *(plugins/font-awesome)*: **v3.2.1**
--
+
 **Guidelines - Setup:**
 
 Clone this repo or download as a ZIP file everytime designs will be implemented, this biolerplate serves as a base template for all designs.

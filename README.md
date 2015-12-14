@@ -2,6 +2,7 @@
 A lightweight starter kit for web designers like me.
 
 **What's included:**
+
 1. Bourbon *(sass/0-libraries/bourbon)*: **_v4.2.6_**
 2. Bootstrap *(css/bootstrap.min.css)* & *(js/bootstrap.min.js)*: **_v3.3.6_**
 3. jQuery *(js/jquery.min.js)*: _**v1.11.3**_
@@ -9,6 +10,7 @@ A lightweight starter kit for web designers like me.
 5. FontAwesome *(plugins/font-awesome)*: **_v3.2.1_**
 
 **Guidelines - Setup:**
+
 Clone this repo or download as a ZIP file everytime designs will be implemented, this biolerplate serves as a base template for all designs.
 
 Before implementing designs, make sure that sass is configured properly. Standard configuration include setting the output for **main.sass** to **css/_user-styles.css_**. It is recommended that you rename the output css similar to the project name.

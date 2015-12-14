@@ -3,11 +3,11 @@ A lightweight starter kit for web designers like me.
 
 **What's included:**
 
-1. Bourbon *(sass/0-libraries/bourbon)*: **_v4.2.6_**
-2. Bootstrap *(css/bootstrap.min.css)* & *(js/bootstrap.min.js)*: **_v3.3.6_**
-3. jQuery *(js/jquery.min.js)*: _**v1.11.3**_
-4. Animate.css *(plugins/animate-css)*: **_v3.4.0_**
-5. FontAwesome *(plugins/font-awesome)*: **_v3.2.1_**
+1. Bourbon *(sass/0-libraries/bourbon)*: **v4.2.6**
+2. Bootstrap *(css/bootstrap.min.css)* & *(js/bootstrap.min.js)*: **v3.3.6**
+3. jQuery *(js/jquery.min.js)*: **v1.11.3**
+4. Animate.css *(plugins/animate-css)*: **v3.4.0**
+5. FontAwesome *(plugins/font-awesome)*: **v3.2.1**
 
 **Guidelines - Setup:**
 
@@ -33,7 +33,7 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
     $primary-font: sans-serif
   ```
 
-** Base **
+**Base**
 - *1-base/base.sass* : This is where we add global styling. Common global styles include declaring font-family:
   ```
     body

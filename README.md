@@ -40,7 +40,8 @@ We utilize SASS to keep design codes modular and neat. It is important to unders
 - *1-base/base.sass* : this is where we add global styling. Common global styles include declaring font-family:
 
   ```
-  Why is this inline?
+  base
+    font-family: $primary-font
   ```
 
 **Page-specific Styling**

@@ -6,7 +6,7 @@ A lightweight starter kit for web designers like me.
 1. [Bourbon](http://bourbon.io/docs/) *(sass/0-libraries/bourbon)*: **v4.2.6**
 2. [Bootstrap](http://getbootstrap.com/) *(css/bootstrap.min.css)* & *(js/bootstrap.min.js)*: **v3.3.6**
 3. [jQuery](https://jquery.com/download/) *(js/jquery.min.js)*: **v1.11.3**
-4. [Animate.css](https://daneden.github.io/animate.css/) *(plugins/animate-css)*: **v3.4.0**
+4. [Animate.css](https://daneden.github.io/animate.css/) *(plugins/animate-css)*: **v3.5.0**
 5. [FontAwesome](https://fortawesome.github.io/Font-Awesome/icons/) *(plugins/font-awesome)*: **v4.5.0**
 
 **Guidelines - Setup:**

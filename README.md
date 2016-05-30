@@ -1,5 +1,5 @@
-# Bootstrap-StarterKit
-A lightweight starter kit for web designers like me.
+# Bootstrap-StarterKit __(Deprecated)__
+A lightweight starter kit for web designers like me. __(Deprecated)__
 
 **What's included:**
 
